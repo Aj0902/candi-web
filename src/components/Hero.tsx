@@ -41,12 +41,18 @@ export default function Hero() {
           className="mt-12 flex flex-col items-center gap-4"
         >
           <div className="flex gap-4">
-             <button className="px-8 py-3 bg-candi-gold text-candi-black text-xs uppercase tracking-widest font-bold hover:bg-white transition-colors duration-500 rounded-sm">
+             <a 
+               href="#archive"
+               className="px-8 py-3 bg-candi-gold text-candi-black text-xs uppercase tracking-widest font-bold hover:bg-white transition-colors duration-500 rounded-sm"
+             >
                 Buka Gerbang
-             </button>
-             <button className="px-8 py-3 border border-white/20 text-xs uppercase tracking-widest font-bold hover:bg-white/5 transition-colors duration-500 rounded-sm">
+             </a>
+             <a 
+               href="#about"
+               className="px-8 py-3 border border-white/20 text-xs uppercase tracking-widest font-bold hover:bg-white/5 transition-colors duration-500 rounded-sm"
+             >
                 Lihat Visi
-             </button>
+             </a>
           </div>
         </motion.div>
       </div>
